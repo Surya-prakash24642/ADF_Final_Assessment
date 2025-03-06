@@ -1,0 +1,60 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "RG-DF12"
+		},
+		"AzureBlobStorage1_connectionString": {
+			"value": ""
+		},
+		"AzureSqlDatabase1_password": {
+			"value": ""
+		},
+		"AzureSqlDatabase2_password": {
+			"value": ""
+		},
+		"LS_ASQL__password": {
+			"value": ""
+		},
+		"LS_ASQL_Q2_connectionString": {
+			"value": ""
+		},
+		"AzureSqlDatabase1_properties_typeProperties_server": {
+			"value": "msql-server1.database.windows.net"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_database": {
+			"value": "MSQL_1"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_userName": {
+			"value": "suryaprakash"
+		},
+		"AzureSqlDatabase2_properties_typeProperties_server": {
+			"value": "msql-server1.database.windows.net"
+		},
+		"AzureSqlDatabase2_properties_typeProperties_database": {
+			"value": "MSQL_1"
+		},
+		"AzureSqlDatabase2_properties_typeProperties_userName": {
+			"value": "suryaprakash"
+		},
+		"LS_ASQL__properties_typeProperties_server": {
+			"value": "msql-server1.database.windows.net"
+		},
+		"LS_ASQL__properties_typeProperties_database": {
+			"value": "MSQL_1"
+		},
+		"LS_ASQL__properties_typeProperties_userName": {
+			"value": "suryaprakash"
+		},
+		"LS_ASQL_REST_API_properties_typeProperties_url": {
+			"value": "https://jsonplaceholder.typicode.com/users"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
