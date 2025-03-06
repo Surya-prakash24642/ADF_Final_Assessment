@@ -160,6 +160,33 @@
 						}
 					]
 				}
+			},
+			{
+				"name": "Stored procedure1",
+				"type": "SqlServerStoredProcedure",
+				"dependsOn": [
+					{
+						"activity": "PL_DATA_EVERYDAY_DETAILS",
+						"dependencyConditions": [
+							"Succeeded"
+						]
+					}
+				],
+				"policy": {
+					"timeout": "0.12:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"storedProcedureName": "[dbo].[MergeDaysAndInsert2]"
+				},
+				"linkedServiceName": {
+					"referenceName": "AzureSqlDatabase2",
+					"type": "LinkedServiceReference"
+				}
 			}
 		],
 		"variables": {
