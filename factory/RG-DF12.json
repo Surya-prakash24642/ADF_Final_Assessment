@@ -1,0 +1,9 @@
+{
+	"name": "RG-DF12",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "1915b1da-2b41-44c1-a5e3-f496fbfa9e37",
+		"tenantId": "2800c0a0-70e9-49be-8733-faeaa6aced99"
+	}
+}
